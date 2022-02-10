@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.intro-bar{
+    height: 30px;
+}
+.intro-bar > p {
+    font-size: small;
+    margin: 0 auto;
+
+}
+.intro-bar > i {
+    padding: 14px;
+    border: 2px solid white;
+    color: gray;
+}
+.nav-bar{
+    background-color: gray;
+    position: relative;
+    top: 31px;
+    height: 30px;
+}
+.nav-bar > a{
+    padding: 10px 15px;
+    text-decoration: none;
+    border-right: 0.5px solid white;
+    text-transform: capitalize;
+    color: white;
+    font-size: 12px;
+}
+.nav-bar > a:hover{
+    background-color: white;
+    color: black;
+}
+.nav-bar-t{
+    margin-left: 400px;
+}
+.nav-bar-t > a{
+    text-transform: capitalize;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#date-time{
+    margin-left: 30px;
+    color: white;
+    font-size: 16px;
+}
+.nav-3 {
+    position: relative;
+    top: 31px;
+    height: 40px;
+    background-color: #f7f6c8;
+    
+    
+    /* #fffc4d */
+}
+.nav-3 > span > i {
+        padding: 10px;
+        font-size: 25px;
+        color: white;
+        border: 1px solid white;
+}
+.nav-3 > span > i:hover {
+    color: black;
+}
+
+.nav-3 > span > a  {
+    position: relative;
+    top: 5px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav-3 > span > img{
+    position: relative;
+    top: 5px;
+}
+.nav-3 > i{
+    position: relative;
+    left: 4px;
+    font-size: 20px;
+    color: white;
+}
+.container{
+    position: relative;
+    top: 31px;
+    float: left;
+    height: 650px;
+    background-color: #f7f6c8;
+    width:150px
+}
+
+.container > .left-div > button{
+    padding: 15px 10px;
+    color: white;
+    background-image: linear-gradient(yellow, red);
+}
+.left-div{
+    position: relative;
+    left: -8px;
+    top: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+.middle-div{
+    position: absolute;
+    top: 31px;
+    left: 160px;
+    height: 650px;
+}
+
+.middle-div > .main-menu > span > input {
+    width: 90px;
+}
+.middle-div > .main-menu > span{
+    border: 1px solid gray;
+}
+.middle-div > .main-menu > span > label{
+    height: 52px;
+    width: 92px;
+    background-image: linear-gradient(yellow,red);
+}
+.table-div{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+.right-div{
+    position: absolute;
+    top: 10px;
+    left: 950px;
+}
+.grid1{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.right-div > .grid1 > button,.right-div > .grid2 > button{
+    text-align: center;
+    padding: 6px 9px;
+    color: white;
+    background-image: linear-gradient(yellow,red);
+} 
+th{
+    padding: 4px 15px;
+   border: 1px solid black;
+   background-color: rgb(241, 139, 139);
+}
